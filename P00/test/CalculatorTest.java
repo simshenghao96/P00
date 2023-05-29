@@ -64,8 +64,8 @@ public class CalculatorTest {
 	
 	@Test
 	public final void testDevide() {
-		int a = 15;
-		int b = 3;
+		int a = 100;
+		int b = 20;
 		
 		Calculator cal = new Calculator();
 		int actual = cal.devide(a, b);
